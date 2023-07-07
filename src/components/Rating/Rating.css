@@ -1,0 +1,30 @@
+.rating-star{
+     display: flex;
+     gap: 0;
+}
+
+.star{
+  width: 100%;
+  margin-left: -30px;
+}
+
+.left-ratings-sec,
+.right-ratings-sec{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     margin-inline: 15px;
+}
+
+.left-ratings-sec div,
+.right-ratings-sec div
+{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     white-space: nowrap;
+     width: 100%;
+}
+
+
+
